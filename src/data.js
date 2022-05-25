@@ -1,10 +1,10 @@
 const data = {
   products: [
     {
-      name: 'Placeholder img #1',
+      name: 'Placeholder Product #1',
       slug: 'placeholderurl1',
       category: 'ph',
-      image: '/images/#1.png',
+      image: '/images/1.png',
       price: 120,
       countInStock: 10,
       brand: 'ph',
@@ -14,10 +14,10 @@ const data = {
     },
 
     {
-      name: 'Placeholder img #2',
+      name: 'Placeholder Product #2',
       slug: 'placeholderurl2',
       category: 'ph',
-      image: '/images/#2.png',
+      image: '/images/2.png',
       price: 120,
       countInStock: 10,
       brand: 'ph',
@@ -27,10 +27,10 @@ const data = {
     },
 
     {
-      name: 'Placeholder img #3',
+      name: 'Placeholder Product #3',
       slug: 'placeholderurl3',
       category: 'ph',
-      image: '/images/#3.png',
+      image: '/images/3.png',
       price: 120,
       countInStock: 10,
       brand: 'ph',
