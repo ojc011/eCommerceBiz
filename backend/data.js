@@ -38,6 +38,19 @@ const data = {
       numReviews: 10,
       description: 'ph description',
     },
+
+    {
+      name: 'Placeholder Product #4',
+      slug: 'placeholderurl4',
+      category: 'ph',
+      image: '/images/4.png',
+      price: 120,
+      countInStock: 10,
+      brand: 'ph',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'ph description',
+    }
   ],
 };
 
