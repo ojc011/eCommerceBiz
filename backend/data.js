@@ -6,7 +6,7 @@ const data = {
       category: 'ph',
       image: '/images/1.png',
       price: 120,
-      countInStock: 10,
+      countInStock: 0,
       brand: 'ph',
       rating: 4.5,
       numReviews: 10,
@@ -50,7 +50,7 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: 'ph description',
-    }
+    },
   ],
 };
 
