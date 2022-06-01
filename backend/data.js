@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Placeholder Product #1',
       slug: 'placeholderurl1',
       category: 'ph',
@@ -14,6 +15,7 @@ const data = {
     },
 
     {
+      _id: '2',
       name: 'Placeholder Product #2',
       slug: 'placeholderurl2',
       category: 'ph',
@@ -27,6 +29,7 @@ const data = {
     },
 
     {
+      _id: '3',
       name: 'Placeholder Product #3',
       slug: 'placeholderurl3',
       category: 'ph',
@@ -40,6 +43,7 @@ const data = {
     },
 
     {
+      _id: '4',
       name: 'Placeholder Product #4',
       slug: 'placeholderurl4',
       category: 'ph',
