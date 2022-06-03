@@ -1,4 +1,4 @@
-import { useEffect, useReducer } from 'react';
+import { useEffect, useReducer, useState } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
@@ -36,8 +36,9 @@ function HomeScreen() {
         const result = await axios.get('/api/products');
         dispatch({ type: 'FETCH_SUCCESS', payload: result.data });
       } catch (err) {
-        dispatch({ type: 'FETCH_FAIL, payload: err.message' });
+        dispatch({ type: 'FETCH_FAIL', payload: err.message });
       }
+
       // setProducts(result.data);
     };
     fetchData();
@@ -45,8 +46,7 @@ function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>eCommerceBiz
-        </title>
+        <title>eCommerceBiz</title>
       </Helmet>
       <h1>Featured Products</h1>
       <div className="products">
