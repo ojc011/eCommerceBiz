@@ -142,7 +142,7 @@ export default function PlaceOrderScreen() {
         <Col md={4}>
           <Card>
             <Card.Body>
-              <Card.Title>Order Summar</Card.Title>
+              <Card.Title>Order Summary</Card.Title>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <Row>
