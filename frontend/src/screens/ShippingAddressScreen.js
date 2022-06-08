@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
-import Button from 'react-bootstrap/esm/Button';
-import Form from 'react-bootstrap/esm/Form';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 import { Helmet } from 'react-helmet-async';
 import { useNavigate } from 'react-router-dom';
 import CheckoutSteps from '../components/CheckoutSteps';
