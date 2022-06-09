@@ -58,7 +58,7 @@ const data = {
     {
       name: 'Placeholder Product #4',
       slug: 'placeholderurl4',
-      category: 'ExampleCategory2',
+      category: 'ExampleCategory3',
       image: '/images/4.png',
       price: 180,
       countInStock: 10,
