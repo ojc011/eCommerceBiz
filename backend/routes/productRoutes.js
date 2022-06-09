@@ -20,7 +20,7 @@ productRouter.post(
       slug: 'sample-name-' + Date.now(),
       image: '/images/1.png',
       price: 0,
-      category: 'sample categorry',
+      category: 'sample category',
       brand: 'sample brand',
       countInStock: 0,
       rating: 0,
