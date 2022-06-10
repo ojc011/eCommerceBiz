@@ -17,7 +17,6 @@ const data = {
   ],
   products: [
     {
-      // _id: '1',
       name: 'Placeholder Product #1',
       slug: 'placeholderurl1',
       category: 'ExampleCategory1',
@@ -25,13 +24,12 @@ const data = {
       price: 60,
       countInStock: 5,
       brand: 'ph',
-      rating: 4.5,
+      rating: 4.7,
       numReviews: 10,
       description: 'ph description',
     },
 
     {
-      // _id: '2',
       name: 'Placeholder Product #2',
       slug: 'placeholderurl2',
       category: 'ExampleCategory1',
@@ -39,13 +37,12 @@ const data = {
       price: 450,
       countInStock: 0,
       brand: 'ph',
-      rating: 4.5,
+      rating: 4.9,
       numReviews: 10,
       description: 'ph description',
     },
 
     {
-      // _id: '3',
       name: 'Placeholder Product #3',
       slug: 'placeholderurl3',
       category: 'ExampleCategory2',
@@ -53,21 +50,20 @@ const data = {
       price: 140,
       countInStock: 10,
       brand: 'ph',
-      rating: 4.5,
+      rating: 3.1,
       numReviews: 10,
       description: 'ph description',
     },
 
     {
-      // _id: '4',
       name: 'Placeholder Product #4',
       slug: 'placeholderurl4',
-      category: 'ExampleCategory2',
+      category: 'ExampleCategory3',
       image: '/images/4.png',
       price: 180,
       countInStock: 10,
       brand: 'ph',
-      rating: 4.5,
+      rating: 5.0,
       numReviews: 10,
       description: 'ph description',
     },
