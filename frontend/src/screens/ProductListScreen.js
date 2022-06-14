@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useReducer } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
